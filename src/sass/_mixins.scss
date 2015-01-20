@@ -1,0 +1,11 @@
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+@mixin stroke($color) {
+	text-shadow: -1px -1px $color,
+				 -1px 1px $color,
+				 1px -1px $color,
+				 1px 1px $color;
+}
+

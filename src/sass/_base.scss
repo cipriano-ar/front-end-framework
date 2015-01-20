@@ -1,0 +1,19 @@
+/*
+
+Base
+
+*/
+
+body {
+	margin:0;
+}
+
+#wrapper,
+nav ul,
+.clearfix {
+	&:after {
+		content:"";
+		display: table;
+		clear: both;
+	};
+}

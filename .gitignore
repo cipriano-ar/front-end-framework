@@ -1,0 +1,25 @@
+# OS generated files
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#Node modules
+node_modules
+
+# Destination for minify CSS
+dist
+
+# SASS
+.sass-cache
+
+#Assets
+assets/css
+assets/js
+
+#Bower
+bower_components

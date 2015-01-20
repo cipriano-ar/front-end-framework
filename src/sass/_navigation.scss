@@ -1,0 +1,76 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Front End Web Design Bootcamp Class
+
+*/
+
+header, nav, #container, footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/* Header
+------------------------------------------*/
+header h1 {
+	text-align: center;
+}
+
+/* Navigation
+------------------------------------------*/
+
+nav {
+	ul {
+		padding: 0;
+		margin: 0 auto;
+		max-width: 960px;
+		li {
+			list-style: none;
+			background: #ccc;
+			border-bottom: 1px solid white;
+			text-align: center;
+			@include stroke(white);
+			&:hover {
+				background-color: orange;
+			}
+			a {
+				text-decoration: none;
+				width: 100%;
+				padding: 1em 0;
+				display: block;
+			}
+		}
+	}
+}
+
+/* Misc
+-----------------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Media Queries
+-----------------------------------------------*/
+
+@media screen and (min-width: 600px) {
+	nav {
+		border-top: 1px solid #fff;
+	}
+
+	nav ul li {
+		float: left;
+		width: 19.9%;
+		border-right: 1px solid #fff;
+		border-bottom: none;
+	}
+
+	nav ul li:nth-child(4) {
+		border-right: none;
+	}
+}

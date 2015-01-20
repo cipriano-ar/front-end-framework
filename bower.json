@@ -1,0 +1,19 @@
+{
+  "name": "front-end-framework",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cmazzieri/front-end-framework",
+  "description": "My Front End Development Framework",
+  "keywords": [
+    "front-end",
+    "web development"
+  ],
+  "authors": [
+    "Cipriano Mazzieri"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "responsive-nav": "~1.0.34"
+  }
+}
